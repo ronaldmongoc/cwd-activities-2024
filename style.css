@@ -11,6 +11,14 @@ h1, h2, h3, h4, h5, h6,  p {front-weight: 200}
     top: 0;
 }
 
+.row {
+    padding: 20px;
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 
 .stock-link-small {
     font-weight: 120;
@@ -21,4 +29,31 @@ h1, h2, h3, h4, h5, h6,  p {front-weight: 200}
 
 .stock-img {
     margin: 20px 0px 20px;
+}
+
+
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+}
+
+{
+    background: #f4f4f4;
+}
+
+.form-container {
+    margin-top: 50px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.form-header {
+    margin-bottom: 30px;
+}
+.btn-custom {
+    background-color: #1e88e5; /* Customize button color */
 }
